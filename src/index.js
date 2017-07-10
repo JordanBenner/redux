@@ -1,9 +1,13 @@
-import react from 'react';
+import React from 'react';
+import ReactDom from 'react-dom';
 
 // Create new Component. This Component should produce
 // some html
-  const app = function(){
+  const App = () => {
     return <div>Hi!</div>;
   }
+
+
 // Take this Component generated html and put it on the page(in the Dom)
-React.render(App)
+
+ReactDom.render(<App />, document.querySelector('.container'));
