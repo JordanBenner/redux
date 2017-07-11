@@ -6,7 +6,8 @@ class SearchBar extends React.Component{
   }
 
   handleInputChange(event){
-
+    // de bugging option upon first component
+    console.log(event);
   }
 }
 
