@@ -16,7 +16,4 @@ const API_KEY ='AIzaSyB1asfCFekplcTUra4XcACIXhicLH8Vp0g';
     );
   }
 
-
-// Take this Component generated html and put it on the page(in the Dom)
-
 ReactDom.render(<App />, document.querySelector('.container'));
