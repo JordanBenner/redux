@@ -5,7 +5,7 @@ class SearchBar extends React.Component{
     return <input onChange={this.handleInputChange}/>;
   }
 
-  handleInputChange(){
+  handleInputChange(event){
 
   }
 }
